@@ -1,0 +1,23 @@
+html {
+  font-size: 18px;
+}
+body {
+  font-family: Helvetica;
+}
+/*header styling*/
+header {
+  background-color: black;
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  padding: .66rem;
+  align-items: center;
+  text-transform: uppercase;
+  padding-left: 5rem;
+}
+header img {
+  margin-left: .5rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+/*end header styling*/
