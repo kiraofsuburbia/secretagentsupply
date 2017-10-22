@@ -3,6 +3,7 @@ html {
 }
 body {
   font-family: Helvetica;
+  color: white;
 }
 /*header styling*/
 header {
@@ -21,3 +22,44 @@ header img {
   height: 1.5rem;
 }
 /*end header styling*/
+
+/*banner styling*/
+.main {
+  height: 25rem;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-position: cover;
+  width: 100%;
+  background-size: cover;
+  padding-left: 5rem;
+  padding-top: 9rem;
+  text-transform: uppercase;
+
+}
+.newarrival {
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  justify-content: center;
+  font-weight: bold;
+}
+.newarrival h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.newarrival h1 {
+  font-size: 2rem;
+}
+/*end banner styling*/
+
+
+/*navigation styling*/
+nav {
+  background-color: firebrick;
+  display: flex;
+  padding: .75rem 5rem;
+  list-style: none;
+  justify-content: space-around;
+}
+/*end navigation styling*/
+
+/*
