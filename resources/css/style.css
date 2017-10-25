@@ -94,3 +94,35 @@ nav {
   width: 9rem;
 }
 /* end gallery styling*/
+
+/*location and hours */
+.info {
+  display: flex;
+  margin: 3rem 6rem;
+  justify-content: space-between;
+}
+.info h4 {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.info p {
+  color: black;
+}
+.location, .hours {
+  width: 30%;
+}
+/*end location and hours*/
+
+/*footer styling*/
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+footer p {
+  margin-left: 5rem;
+}
+/*end footer styling*/
