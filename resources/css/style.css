@@ -126,3 +126,75 @@ footer p {
   margin-left: 5rem;
 }
 /*end footer styling*/
+
+@media only screen and (max-width: 1024px) {
+  .item {
+    width: 50%;
+  }
+  #glasses {
+    display: none;
+  }
+
+  #pen {
+    margin-right: 2rem;
+  }
+  #watch {
+    margin-left: 2rem;
+  }
+  nav:after {
+    content: "Menu";
+  }
+  nav li {
+    display: none;
+  }
+  .info {
+    margin: 3rem 5rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .main {
+    display: flex;
+    align-content: flex-end;
+    padding: 0px;
+
+  }
+  .newarrival {
+     margin: auto;
+     width: 100%;
+     margin-bottom: 0px;
+     padding-top: 1rem;
+     padding-left: 2rem;
+  }
+  .newarrival h4 {
+    font-size: .77rem;
+  }
+  .newarrival h2 {
+    font-size: 1rem;
+  }
+  header h2 {
+    display: none;
+  }
+
+  header img {
+    margin: auto;
+    padding-left: 0px;
+  }
+  #watch {
+    display: none;
+  }
+  #pen {
+    width: 90%;
+    margin: auto;
+  }
+  .info {
+    display: block;
+    width: 100%;
+  }
+  .info h4 {
+    width: 10rem;
+    margin-left: 1rem;
+  }
+  .info p {
+    text-align: center;
+  }
+}
